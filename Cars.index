@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>موقع بيع سيارات عالمية</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #007bff;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .car {
+            display: flex;
+            margin-bottom: 20px;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 20px;
+        }
+        .car img {
+            width: 300px;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 8px;
+            margin-left: 20px;
+        }
+        .car-details {
+            flex: 1;
+        }
+        .car h3 {
+            margin: 0;
+            color: #007bff;
+        }
+        .price {
+            font-size: 1.5em;
+            color: #28a745;
+            font-weight: bold;
+        }
+        button {
+            background-color: #28a745;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #218838;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #007bff;
+            color: white;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>موقع بيع سيارات عالمية</h1>
+        <p>اكتشف أفضل السيارات العالمية بأسعار تنافسية</p>
+    </header>
+    
+    <div class="container">
+        <h2>سيارات متاحة للبيع</h2>
+        
+        <div class="car">
+            <img src="https://images.unsplash.com/photo-1555215695-3004980ad54e?w=300&h=200&fit=crop" alt="سيارة BMW">
+            <div class="car-details">
+                <h3>BMW X5</h3>
+                <p>سيارة SUV فاخرة مع محرك قوي وتقنيات حديثة. مثالية للرحلات الطويلة.</p>
+                <p class="price">السعر: 500,000 ريال سعودي</p>
+                <button>اطلب الآن</button>
+            </div>
+        </div>
+        
+        <div class="car">
+            <img src="https://images.unsplash.com/photo-1544636331-e26879cd4d9b?w=300&h=200&fit=crop" alt="سيارة Mercedes-Benz">
+            <div class="car-details">
+                <h3>Mercedes-Benz C-Class</h3>
+                <p>سيارة سيدان أنيقة مع راحة استثنائية وأمان عالي.</p>
+                <p class="price">السعر: 450,000 ريال سعودي</p>
+                <button>اطلب الآن</button>
+            </div>
+        </div>
+        
+        <div class="car">
+            <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=300&h=200&fit=crop" alt="سيارة Toyota Camry">
+            <div class="car-details">
+                <h3>Toyota Camry</h3>
+                <p>سيارة موثوقة وفعالة في استهلاك الوقود، مثالية للاستخدام اليومي.</p>
+                <p class="price">السعر: 300,000 ريال سعودي</p>
+                <button>اطلب الآن</button>
+            </div>
+        </div>
+        
+        <div class="car">
+            <img src="https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?w=300&h=200&fit=crop" alt="سيارة Audi A4">
+            <div class="car-details">
+                <h3>Audi A4</h3>
+                <p>سيارة رياضية مع تصميم عصري وأداء ممتاز.</p>
+                <p class="price">السعر: 400,000 ريال سعودي</p>
+                <button>اطلب الآن</button>
+            </div>
+        </div>
+    </div>
+    
+    <footer>
+        <p>&copy; 2023 موقع بيع سيارات عالمية. جميع الحقوق محفوظة.</p>
+    </footer>
+</body>
+</html>
